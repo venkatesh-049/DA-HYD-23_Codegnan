@@ -109,6 +109,7 @@ a=bool(angle)
 '''
 e=int(float(bool(45)))  #bool(45)=True, float(True)-->True=1, so float of true is 1.0
 print(e)                # then int=1
+#what comes first that only the datatype of the answer
 '''
 a=45 + 2.5 + 2 + 3j + False
 print(a)
