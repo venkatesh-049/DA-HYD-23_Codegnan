@@ -110,6 +110,7 @@ task:student mark and grade analayzer(if-else)
 
 marks should not be > 100 and < 0
 '''
+# THIS IS THE TASK FOR TODAY CLASS USING IF AND ELSE STATEMENT:
 
 marks = int(input('Enter the marks'))
 if marks >0 and marks <= 100:
