@@ -19,9 +19,11 @@ else:
 Write a Python program using if-elif-else that takes a month number
 (1–12) as input and prints the season it belongs to.
 '''
-'''
+
 month = int(input('enter the number'))
-if month==12 or month==1 or month==2:
+if month < 1 or month > 12:
+    print('Invalid month')
+elif month==12 or month==1 or month==2:
     print('winter')
 elif month==3 or month==4 or month==5:
     print('spring')
@@ -30,9 +32,10 @@ elif month==6 or month==7 or month==8:
 else:
     month==9 or month==10 or month==11
     print('autumn')
-'''
-'''
+
+
 #Grade checker using if-elif-else
+'''
 marks=int(input('enter the marks'))
 if marks >=90 and marks <=100:
     print('Grade A')
@@ -49,8 +52,8 @@ elif marks < 50 and marks>=0:
 else:
     print('Invalid marks entered')
 '''
-
-
+#to find the longest sequence 
+'''
 temps=[95,93,101,98,99,97,96,102,90]
 long_seq=0
 cur_seq=0
@@ -62,6 +65,6 @@ for temp in temps:
     else:
         cur_seq = 0
 print(long_seq)
-        
+'''      
     
     
