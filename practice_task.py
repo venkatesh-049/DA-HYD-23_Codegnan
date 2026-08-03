@@ -3,13 +3,13 @@
 '''
 num=int(input('enter the number'))
 if num > 0 and num % 2 == 0:
-    print('even')
+    print('even number')
 elif num < 0 and num % 2 == 0:
     print('-ve even number')
 elif num > 0:
-    print('odd')
+    print('odd number')
 elif num < 0:
-    print('-ve odd')
+    print('-ve odd number')
 else:
     print('Zero is neither even nor odd')
 '''
@@ -18,7 +18,7 @@ else:
 '''
 Write a Python program using if-elif-else that takes a month number
 (1–12) as input and prints the season it belongs to.
-'''
+
 
 month = int(input('enter the number'))
 if month < 1 or month > 12:
@@ -33,26 +33,30 @@ else:
     month==9 or month==10 or month==11
     print('autumn')
 
+'''
 
 #Grade checker using if-elif-else
-'''
+
 marks=int(input('enter the marks'))
 if marks >=90 and marks <=100:
     print('Grade A')
+    print('Outstanding')
 elif marks >=80 and marks <=89:
     print('Grade B')
+    print('Excellent')
 elif marks >=70 and marks <=79:
-    print('Grade C')
+    print('Good')
 elif marks >=60 and marks <=69:
-    print('Grade D')
+    print('Fair,needs improvement')
 elif marks >=50 and marks <=59:
-    print('Grade E')
+    print('Poor, needs serious improvement')
 elif marks < 50 and marks>=0:
-    print('Fail')
+    print('Failed, needs to reappear')
 else:
     print('Invalid marks entered')
 '''
 #to find the longest sequence 
+'''
 '''
 temps=[95,93,101,98,99,97,96,102,90]
 long_seq=0
