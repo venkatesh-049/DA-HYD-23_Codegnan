@@ -45,7 +45,7 @@ This repository documents my learning journey in Python and Data Analytics.
 - String Slicing
 - String Operations
 - Lists, Tuples, Sets, Dict.
-- -Functions
+- Functions
 
 ### Data Analysis
 
