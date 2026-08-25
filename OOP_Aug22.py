@@ -54,12 +54,12 @@ class CodegnanPortal:
     #To access student details
     def display(self):
         print(f'Student Username is {self.user}')
-u1 = CodegnanPortal("Sakethkallepu")
+u1 = CodegnanPortal("venkymeenugu")
 u1.display()
-u1.user = "Saketh Kallepu" #modifying public attribute
+u1.user = "venky meenugu" #modifying public attribute
 u1.display()
 print(u1.__dict__) #returns the key-value pairs for attributes
-u2 = CodegnanPortal("jaychandra")
+u2 = CodegnanPortal("vamshi")
 u2.display()
 print(u2.__dict__)
 
@@ -75,7 +75,7 @@ class CodegnanPortal:
     def display(self):
         print(f'Student Username is {self.user}')
         print(f'Student has received OTP as {self._otp}')
-u1 = CodegnanPortal("Saketh",23456)
+u1 = CodegnanPortal("venky",23456)
 u1.display()
 u1._otp = 3456
 u1.display()
@@ -94,7 +94,7 @@ class CodegnanPortal:
     def display(self):
         print(f'Student Username is {self.user}')
         print(f'Student has received OTP as {self._otp}')
-u1 = CodegnanPortal("Saketh",23456,"admin123")
+u1 = CodegnanPortal("venky",23456,"admin123")
 #print(u1.password) AttributeError as password is private
 print(u1.__dict__)
 print(u1._CodegnanPortal__password) #NameMangling
@@ -118,8 +118,8 @@ class CodegnanPortal:
         else:
             self.__password = new_password
             print("Now password is updated")
-u1 = CodegnanPortal("Saketh",23456,"admin123")
+u1 = CodegnanPortal("venky",23456,"admin123")
 print(u1.get_password())
-u1.set_password("saketh")
-u1.set_password("saketh123") #compulsory morethan 6
+u1.set_password("venky")
+u1.set_password("venky123") #compulsory morethan 6
 print(u1.get_password())
